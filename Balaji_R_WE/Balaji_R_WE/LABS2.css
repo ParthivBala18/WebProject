@@ -1,0 +1,107 @@
+body{
+    max-width: 80%;
+    margin: auto;
+}
+header{
+    background-color: rgb(63, 58, 58);
+    height: 10%;
+    color: white;
+}
+img{
+    height: 100px;
+    border-radius: 50%;
+}
+
+#name h1 {
+    margin-top: 10px;
+}
+
+#name, .profile h4{
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+.intro, .skills{
+    display: flex;
+    align-items: stretch;
+    align-content: center;
+    width: 100%;
+}
+.profile{
+    width: 30%;
+    padding-right: 10px;
+    padding-left: 30px;
+}
+.image{
+  width: 30%;
+  padding-top: 30px;
+  margin-left: 100px;
+}
+.image img{
+    height: 150px;
+    width: 150px;
+}
+.contacts{
+    border-bottom: 1px solid;
+    width: 20%;
+    align-content: left;
+    padding-top: 50px;
+    float: left;
+}
+.contacts i {
+    padding-right: 10px;
+}
+ #email, #phone, #country, #linkedin{
+    border-bottom: 1px solid whitesmoke;
+    padding: 5px;
+} 
+
+.contacts a {
+    text-decoration: none;
+    color: white;
+}
+
+.skills h4{
+    color: rgb(39, 37, 37);
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 5px;
+}
+#edu, #exp, #skil{
+    padding: 10px;
+    align-content: center;
+    width: 100%;
+    background-color: white;
+    height: 200px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    padding-bottom: 20px;
+    color:rgb(39, 37, 37) ;
+}
+
+.experience h4 {
+    background-color: rgb(63, 58, 58);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 40%;
+    margin-left: 28%;
+}
+.w h5 {
+     margin-bottom: 0px;
+ }
+.w p {
+    margin-top: 0;
+    color: #5e5453
+} 
+
+.w span {
+    float: right;
+}
+
+.w ul li {
+    list-style-type:circle;
+    padding: 0;
+}

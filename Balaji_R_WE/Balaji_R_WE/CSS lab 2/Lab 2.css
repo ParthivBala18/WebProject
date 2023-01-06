@@ -1,0 +1,46 @@
+
+header{
+	background-color: grey;
+	font-size: 40px;
+	color: white;
+}
+button{
+	color:white;
+	background-color: darkgreen;
+	border-radius: 5px;
+}
+.mainpic{
+	top: 10%;
+	margin-top: -50px;
+	height: 10cm;
+	width: 10cm;
+}
+.p{
+    left:5%;
+	margin-top:20px;
+ align-content: center;
+text-align: center;
+position: relative;
+
+}
+.btn{
+	color:white;
+	background-color: darkred;
+	border-radius: 5px;
+}
+ul{
+	list-style: none;
+}
+img{
+	height: 0.5cm;
+	width: 0.5cm;
+}
+aside{
+	left:100%;
+}
+#mail{
+	left: 4%;
+ align-content: center;
+text-align: center;
+position: relative;
+}

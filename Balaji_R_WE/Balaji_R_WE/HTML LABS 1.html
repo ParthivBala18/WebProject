@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <style>
+        *{
+            font-weight: bold;
+        }
+        body{
+            background-color: rgba(238, 77, 13, 0.945);
+            color:rgb(255, 250, 250);
+             }
+        form{
+            margin: 0 auto;
+            width: 45%;
+            border-top: 3px solid white;
+            border-bottom: 3px solid white;
+            border-left: transparent;
+            border-right: transparent;
+            border-style: double;
+            border-radius: 15px;
+            height: auto;
+            font-size: 15px;
+             margin-top: 4%;
+             font-weight: bold;
+
+         }
+         h2{
+             margin-top: 30px;
+             font-family: Verdana, Geneva, Tahoma, sans-serif ;
+         }
+         label {
+                display: inline-block;
+                text-align: right;
+                width: 40%;
+                margin-top: 20px;
+                margin : 15px;
+                border:  hidden ;
+                }
+         input {
+            padding: 5px;
+            border:  hidden ;
+           
+         }
+         button {
+                margin-top: 20px;
+                border-radius: 3px;
+                padding: 5px;
+                width: 25%;
+                color: rgb(248, 89, 16);
+                font-family: Verdana, Geneva, Tahoma, sans-serif ;
+                border:  hidden ;
+                }
+            .btn{
+                text-align: right;
+                margin-right: 45px;
+                margin-bottom: 10px;
+               
+            }
+
+    </style>
+</head>
+<body>
+    
+    <div>
+        <form class="form-horizontal">
+             <div>
+                <h2>Create Your Account</h2>
+
+                <label for="name">Enter Name : </label>
+                <input  type="text" placeholder= "Enter your name">
+
+                <label for="email">Enter Email id:</label>
+                <input type ="email" placeholder="Enter your email" required>
+
+                <label for="age">Enter Age : </label>
+                <input  type="number" placeholder= "Enter your Age" min='1' max="100" required>
+
+                <label for="DoB">Date of Birth : </label>
+                <input  type="date" required >
+
+                <label for="grad">Graduation : </label>
+                <select  name="grad" id="grad" required>
+                    <option>Degree</option>
+                    <option>BE</option>
+                    <option>B.Teach</option>
+                    <option>BCA</option>
+                    <option>B.Arch</option>
+                </select>
+
+                <label for="phone">Phone: </label>
+                <input type="text" placeolder="phone" pattern="[7-9]{3}[0-9]{7}" required>
+
+                <label for="username">Enter username : </label>
+                <input  type="text" placeholder="Enter Username" required>
+
+                <label for="password">Enter Password : </label>
+                <input  type="password" placeholder="Enter Password" required>
+
+                <label for="cnf_password">Enter Confirm Password : </label>
+                <input  type="password" placeholder="Enter Password again" required>
+
+            </div>
+            <div class="btn">
+                <button type="reset">Clear Form</button>
+                <button>Create Account</button>
+            </div>
+         </form>
+    </div>
+</body>
+</html>
